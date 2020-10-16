@@ -12,23 +12,23 @@ const routes: RouteConfig[] = [
   {
     path: '/chat/:nickname/:roomid/:roomname',
     name: 'Chat',
-    component: Chat
+    component: Chat,
   },
   {
     path: '/room/:nickname',
     name: 'RoomList',
-    component: Room
+    component: Room,
   },
   {
     path: '/add-room',
     name: 'AddRoom',
-    component: AddRoom
+    component: AddRoom,
   },
   {
     path: '/',
     name: 'Login',
-    component: Login
-  }
+    component: Login,
+  },
 ];
 
 const router = new VueRouter({

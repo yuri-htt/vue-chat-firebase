@@ -1,15 +1,15 @@
-import '@babel/polyfill'
-import 'mutationobserver-shim'
+import '@babel/polyfill';
+import 'mutationobserver-shim';
 import Vue from 'vue';
 // @ts-ignore
 import VueChatScroll from 'vue-chat-scroll';
 
-import './plugins/bootstrap-vue'
+import './plugins/bootstrap-vue';
 import App from './App.vue';
 import router from './router';
 
 Vue.config.productionTip = false;
-Vue.use(VueChatScroll)
+Vue.use(VueChatScroll);
 
 new Vue({
   router,
